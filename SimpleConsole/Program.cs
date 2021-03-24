@@ -3,9 +3,6 @@ using System.Threading.Tasks;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 
-//ID- web API key below
-//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
-
 namespace SimpleConsole
 {
     internal class Program
@@ -22,7 +19,7 @@ namespace SimpleConsole
             /*
                 SERVER/CLIENT SETUP - gets us ready to talk
             */
-            var apiKey = "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";
+            var apiKey = "NOT_IN_SOURCE_CONTROL";
             var client = new SendGridClient(apiKey);
 
             /*
